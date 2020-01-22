@@ -9,3 +9,7 @@ const $ = require('jquery');
 $(document).ready(function () {
     $('#message').html("Hello")
 });
+
+import {sayHello} from "./say-hello";
+
+sayHello('Miguel');
